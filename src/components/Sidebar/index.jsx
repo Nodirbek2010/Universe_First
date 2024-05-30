@@ -37,7 +37,7 @@ const Home = () => {
               {menu.name}
             </MenuItem>
           ))}
-          <div className="toggle-btn" onClick={toggleSidebar}>
+          <div className="flex items-center  justify-center bg-slate-500 min-h-8" onClick={toggleSidebar}>
             {isSidebarOpen ? <FiArrowLeft /> : <FiArrowRight />}
           </div>
         </Menu>
