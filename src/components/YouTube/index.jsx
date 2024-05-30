@@ -1,10 +1,8 @@
 import React from 'react';
 import { useGetProductsQuery } from '../../Redux/slice/Product/slice';
-import { useGetCatigoriesQuery } from '../../Redux/slice/Categories/slice';
 
 const Youtube = () => {
   const { data } = useGetProductsQuery();
-  const { data2 } = useGetCatigoriesQuery();
 
   return (
     <div className="container mx-auto px-4 py-8">
