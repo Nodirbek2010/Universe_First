@@ -17,7 +17,7 @@ const Home = () => {
   };
 
   const menus = [
-    { name: "Youtube", component: 'youtube', icon: FaYoutube },
+    { name: "Universe", component: 'youtube', icon: FaYoutube },
     { name: "Example1", component: 'example1', icon: TbReportAnalytics },
     { name: "Example2", component: 'example2', icon: TbReportAnalytics },
     { name: "Example3", component: 'example3', icon: TbReportAnalytics },
